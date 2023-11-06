@@ -12,7 +12,7 @@
     <title>Landing Page</title>
     
 </head>
-<body style="font-family: Verdana, Geneva, Tahoma, sans-serif " class=" bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-70% to-emerald-500 to-90%">
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif " class=" bg-gray-500">
     <!-- Sidenav -->
 @include('components.sidebar')
 
@@ -25,8 +25,8 @@
 <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 
-{{-- <script>
-//   let table = new DataTable('#myTable');
+<script>
+let table = new DataTable('#myTable');
 
 //   tailwind.config = {
 //     darkMode: "class",
@@ -39,7 +39,7 @@
 //       preflight: false,
 //     },
 //   };
-</script> --}}
+</script>
 
 
 

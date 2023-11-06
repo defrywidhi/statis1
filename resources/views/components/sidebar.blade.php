@@ -1,105 +1,88 @@
-
+<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+    />
+  
   <nav
 id="sidenav-1"
 class="absolute left-0 top-0 z-[1035] h-full w-60 -translate-x-full overflow-hidden bg-white shadow-[0_4px_12px_0_rgba(0,0,0,0.07),_0_2px_4px_rgba(0,0,0,0.05)] data-[te-sidenav-hidden='false']:translate-x-0 "
 data-te-sidenav-init
 data-te-sidenav-hidden="true"
 data-te-sidenav-position="absolute">
-<ul class="relative m-0 list-none px-[0.2rem]" data-te-sidenav-menu-ref>
 
-  <li class="relative">
-    <a
-      class="flex h-12 cursor-pointer items-center truncate rounded-[5px] px-6 py-4 text-[0.875rem] text-gray-600 outline-none transition duration-300 ease-linear hover:bg-slate-50 hover:text-inherit hover:outline-none focus:bg-slate-50 focus:text-inherit focus:outline-none active:bg-slate-50 active:text-inherit active:outline-none data-[te-sidenav-state-active]:text-inherit data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none "
-      data-te-sidenav-link-ref>
-      <span>Tabel Data</span>
-      <span
-        class="absolute right-0 ml-auto mr-[0.8rem] transition-transform duration-300 ease-linear motion-reduce:transition-none [&>svg]:text-gray-600 "
-        data-te-sidenav-rotate-icon-ref>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-          class="h-5 w-5">
-          <path
-            fill-rule="evenodd"
-            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-            clip-rule="evenodd" />
-        </svg>
-      </span>
-    </a>
-    <ul
-      class="!visible relative m-0 hidden list-none p-0 data-[te-collapse-show]:block "
-      data-te-sidenav-collapse-ref
-      data-te-collapse-show>
-      <li class="relative">
-        <a href="/nilai"
-          class=" flex h-6 cursor-pointer items-center truncate rounded-[5px] py-4 pl-[3.4rem] pr-6 text-[0.78rem] text-black outline-none transition duration-300 ease-linear hover:bg-slate-50 hover:text-inherit hover:outline-none focus:bg-slate-50 focus:text-inherit focus:outline-none active:bg-slate-50 active:text-inherit active:outline-none data-[te-sidenav-state-active]:text-inherit data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none  "
-          >Data Tunggal</a
-        >
-      </li>
-      <li class="relative">
-        <a href="dataBergolong"
-          class="flex h-6 cursor-pointer items-center truncate rounded-[5px] py-4 pl-[3.4rem] pr-6 text-[0.78rem] text-gray-600 outline-none transition duration-300 ease-linear hover:bg-slate-50 hover:text-inherit hover:outline-none focus:bg-slate-50 focus:text-inherit focus:outline-none active:bg-slate-50 active:text-inherit active:outline-none data-[te-sidenav-state-active]:text-inherit data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none "
-          data-te-sidenav-link-ref
-          >Data Bergolong</a
-        >
-      </li>
-      <li class="relative">
-        <a href="tabelDeskripsi"
-          class="flex h-6 cursor-pointer items-center truncate rounded-[5px] py-4 pl-[3.4rem] pr-6 text-[0.78rem] text-gray-600 outline-none transition duration-300 ease-linear hover:bg-slate-50 hover:text-inherit hover:outline-none focus:bg-slate-50 focus:text-inherit focus:outline-none active:bg-slate-50 active:text-inherit active:outline-none data-[te-sidenav-state-active]:text-inherit data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none "
-          data-te-sidenav-link-ref
-          >Tabel Deskripsi</a
-        >
-      </li>
-      <li class="relative">
-        <a href="dataSama"
-          class="flex h-6 cursor-pointer items-center truncate rounded-[5px] py-4 pl-[3.4rem] pr-6 text-[0.78rem] text-gray-600 outline-none transition duration-300 ease-linear hover:bg-slate-50 hover:text-inherit hover:outline-none focus:bg-slate-50 focus:text-inherit focus:outline-none active:bg-slate-50 active:text-inherit active:outline-none data-[te-sidenav-state-active]:text-inherit data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none "
-          data-te-sidenav-link-ref
-          >Tabel Distribusi frekuensi</a
-        >
-      </li>
-    </ul>
-  </li>
-  <li class="relative">
-    <a
-      class="flex h-12 cursor-pointer items-center truncate rounded-[5px] px-6 py-4 text-[0.875rem] text-gray-600 outline-none transition duration-300 ease-linear hover:bg-slate-50 hover:text-inherit hover:outline-none focus:bg-slate-50 focus:text-inherit focus:outline-none active:bg-slate-50 active:text-inherit active:outline-none data-[te-sidenav-state-active]:text-inherit data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none "
-      data-te-sidenav-link-ref>
-      <span>Tabel Referensi</span>
-      <span
-        class="absolute right-0 ml-auto mr-[0.8rem] transition-transform duration-300 ease-linear motion-reduce:transition-none [&>svg]:text-gray-600 "
-        data-te-sidenav-rotate-icon-ref>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-          class="h-5 w-5">
-          <path
-            fill-rule="evenodd"
-            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-            clip-rule="evenodd" />
-        </svg>
-      </span>
-    </a>
-    <ul
-      class="show !visible relative m-0 hidden list-none p-0 data-[te-collapse-show]:block "
-      data-te-sidenav-collapse-ref>
-      <li class="relative">
-        <a
-          class="flex h-6 cursor-pointer items-center truncate rounded-[5px] py-4 pl-[3.4rem] pr-6 text-[0.78rem] text-gray-600 outline-none transition duration-300 ease-linear hover:bg-slate-50 hover:text-inherit hover:outline-none focus:bg-slate-50 focus:text-inherit focus:outline-none active:bg-slate-50 active:text-inherit active:outline-none data-[te-sidenav-state-active]:text-inherit data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none "
-          data-te-sidenav-link-ref
-          >Tabek Z Chi</a
-        >
-      </li>
-      <li class="relative">
-        <a
-          class="flex h-6 cursor-pointer items-center truncate rounded-[5px] py-4 pl-[3.4rem] pr-6 text-[0.78rem] text-gray-600 outline-none transition duration-300 ease-linear hover:bg-slate-50 hover:text-inherit hover:outline-none focus:bg-slate-50 focus:text-inherit focus:outline-none active:bg-slate-50 active:text-inherit active:outline-none data-[te-sidenav-state-active]:text-inherit data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none  "
-          data-te-sidenav-link-ref
-          >Tabel Z</a
-        >
-      </li>
-    </ul>
-  </li>
-</ul>
+<div class="hidden border-b lg:block dark:border-neutral-700/70 border-neutral-200 text-black"></div>
+
+        <div class="flex items-center justify-between px-8 py-5">
+            <div class="flex items-center mr-5">
+            <div class="mr-5">
+                <div class="inline-block relative shrink-0 cursor-pointer rounded-[.95rem]">
+                <img >
+                </div>
+            </div>
+            <div class="mr-2 ">
+                <a href="/nilai" class="dark:hover:text-primary hover:text-primary transition-colors duration-200 ease-in-out text-[1.075rem] font-medium dark:text-dark text-secondary-inverse ">Defry Widhi</a>
+                <span class="text-secondary-dark dark:text-gray-700 font-medium block text-[0.85rem]">Student</span>
+            </div>
+            </div>
+        </div>
+
+        <hr class="hidden border-b lg:block dark:border-neutral-700/70 border-neutral-200"></hr>
+
+        <div class="relative pl-3 my-5 ">
+            <div class="flex flex-col w-full font-medium">
+
+            <div
+            class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-black"
+            onclick="dropdown()"
+          >
+            <div class="flex justify-between w-full items-center">
+              <span class="text-sm ml-4 text-black font-bold">Pengolahan Data</span>
+              <span class="text-sm rotate-180" id="arrow">
+                <i class="bi bi-chevron-down"></i>
+              </span>
+            </div>
+          </div>
+          <div
+            class="text-left text-sm mt-2 w-4/5 mx-auto text-black"
+            id="submenu"
+          >
+          <a href="/nilai">
+            <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
+              Data Tunggal
+            </h1>
+          </a>
+          <a href="frekuensi">
+            <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
+              Data Distribusi Frekuensi
+            </h1>
+          </a>
+          <a href="tabelDeskripsi">
+            <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
+              Tabel Deskrpsi Data
+            </h1>
+          </a>
+          <a href="/dataBergolong">
+            <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
+              Data Bergolong
+            </h1>
+          </a>
+          <a href="/tabelChi">
+            <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
+              Table Chi
+            </h1>
+          </a>
+          </div>
+          <script type="text/javascript">
+            function dropdown() {
+              document.querySelector("#submenu").classList.toggle("hidden");
+              document.querySelector("#arrow").classList.toggle("rotate-0");
+            }
+            dropdown();
+      
+            function openSidebar() {
+              document.querySelector(".sidebar").classList.toggle("hidden");
+            }
+          </script>
 </nav>
 <!-- Sidenav -->
 

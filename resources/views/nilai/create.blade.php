@@ -3,7 +3,7 @@
 
     <div class="container mx-auto px-16 py-8 w-3/5">
         <!-- Create Section -->
-        <h1 class="text-2xl font-bold text-white mb-4">Masukkan Nilai</h1>
+        <h1 class="text-3xl font-bold text-center -mt-12 text-white mb-20">Masukkan Nilai</h1>
         <a href="{{ route('nilai.index') }}" class="bg-blue-500 hover:bg-blue-700 text-white font-semibold mt-3 mb-6 py-2 px-4 rounded">Kembali</a>
         <form method="post" action="{{ route('nilai.store') }}" class="mt-4 bg-white p-6 rounded-lg shadow-md">
             @csrf

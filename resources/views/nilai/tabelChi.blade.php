@@ -3,7 +3,7 @@
 
     <div class="mx-16">
         <div class="container mx-auto px-12">
-            <h1 class=" text-4xl font-semibold  mb-8 mt-10  text-white">Tabel Chi</h1>
+            <h1 class=" text-5xl text-center font-semibold  mb-24 -mt-12  text-white">TABLE Z Chi-kuadrat</h1>
             
         <form action="{{route('chi')}}" method="post" class="text-center">
             @csrf
@@ -11,15 +11,15 @@
             <button class="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded mt-4" type ="submit">Hitung</button>
         </form>
         @if (session()->has('success'))
-        <div class=" ">
-            {{ session('success') }}
+        <div class="mt-4 ml-6 text-white text-lg">
+           <p>Hasilnya adalah:  {{ session('success') }} </p>
         </div>
         @endif
 
         </div>
         <div class="container mx-auto width-3/5 px-12 mt-4 bg-white py-6 rounded-md">
-            <table id="myTable" class="table-auto pb-2 w-full bg-white shadow-lg rounded-lg border border-gray-300 ">
-                <thead>
+            <table id="myTable" class="table-auto pb-2 w-full bg-gray-100 shadow-lg rounded-lg border border-gray-300 ">
+                <thead class="bg-blue-100">
                     <tr>
                         <th class=" px-6 py-3 border-b-2 border-gray-300 border-r-2 border-gray-300">Nilai Z</th>
                         <th class=" px-6 py-3 border-b-2 border-gray-300 border-r-2 border-gray-300">Nol</th>

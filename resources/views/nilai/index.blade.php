@@ -16,8 +16,8 @@
                 @endif
             </div>
         </div>
-        <div class="container mx-auto width-3/5 px-12 mt-4 bg-white py-6 rounded-md ">
-            <table id="myTable" class="text-center table-auto pb-2 w-full bg-gray-100 shadow-lg rounded-lg border border-gray-300 ">
+        <div class="container mx-auto width-3/5 px-12 mt-4 bg-white py-6  ">
+            <table id="myTable" class="text-center table-auto pb-2 w-full bg-gray-100 rounded-lg border border-gray-300 ">
                 <thead class="bg-blue-100">
                     <tr>
                         <th class=" px-6 py-3 border-b-2 border-gray-300 border-r-2 border-gray-300">No</th>

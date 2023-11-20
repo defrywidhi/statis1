@@ -7,18 +7,18 @@
             
         <form action="{{route('chi')}}" method="post" class="text-center">
             @csrf
-            <input class="w-1/2 py-2 rounded-md " type="text" name="chi" id="chi" placeholder="  3.10">
+            <input class="w-1/2 py-2 rounded-md " type="text" name="chi" id="chi" placeholder="  1.15">
             <button class="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded mt-4" type ="submit">Hitung</button>
         </form>
         @if (session()->has('success'))
-        <div class="mt-4 ml-6 text-white text-lg">
+        <div class="px-32 mt-4  ml-28 text-white text-lg">
            <p>Hasilnya adalah:  {{ session('success') }} </p>
         </div>
         @endif
 
         </div>
-        <div class="container mx-auto width-3/5 px-12 mt-4 bg-white py-6 rounded-md">
-            <table id="myTable" class="table-auto pb-2 w-full bg-gray-100 shadow-lg rounded-lg border border-gray-300 ">
+        <div class="container mx-auto width-3/5 px-12 mt-4 bg-white py-6 ">
+            <table id="myTable" class="table-auto pb-2 w-full bg-gray-100 rounded-lg border border-gray-300 ">
                 <thead class="bg-blue-100">
                     <tr>
                         <th class=" px-6 py-3 border-b-2 border-gray-300 border-r-2 border-gray-300">Nilai Z</th>

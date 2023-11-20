@@ -4,7 +4,7 @@
         <!-- Edit Section -->
         <h1 class="text-3xl font-bold -mt-12 text-white text-center mb-20">Edit Data</h1>
         <a href="{{ route('nilai.index') }}" class="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Kembali</a>
-        <form method="post" action="{{ route('nilai.update', ['dataSiswa' => $dataSiswa]) }}" class="mt-4 bg-white p-6 rounded-lg shadow-md">
+        <form method="post" action="{{ route('nilai.update', ['dataSiswa' => $dataSiswa]) }}" class="mt-4 bg-white p-6">
             @csrf
             @method('put')
             <div class="mb-4">

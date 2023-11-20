@@ -138,14 +138,17 @@ class nilaiController extends Controller
     }
 
     public function tabelDeskripsi()
-    {
-        $maxValue = nilai::max('nilai_siswa'); // Mencari nilai maksimal
-        $minValue = nilai::min('nilai_siswa'); // Mencari nilai minimal
-        $averageValue = nilai::avg('nilai_siswa'); // Menghitung rata-rata nilai
-        $totalData = nilai::count(); // Menghitung jumlah data
+{
+    $maxValue = nilai::max('nilai_siswa'); // Mencari nilai maksimal
+    $minValue = nilai::min('nilai_siswa'); // Mencari nilai minimal
+    $averageValue = nilai::avg('nilai_siswa'); // Menghitung rata-rata nilai dengan 2 angka di belakang koma
+    $averageValueFormatted = number_format($averageValue, 2); // Memformat nilai rata-rata
 
-        return view('nilai.tabelDeskripsi', compact('maxValue', 'minValue', 'averageValue', 'totalData'));
-    }
+    $totalData = nilai::count(); // Menghitung jumlah data
+
+    return view('nilai.tabelDeskripsi', compact('maxValue', 'minValue', 'averageValueFormatted', 'totalData'));
+}
+
 
     public function dataSama()
 {
@@ -155,6 +158,8 @@ class nilaiController extends Controller
 
     return view('nilai.dataSama', compact('sameValues'));
 }
+
+
 
 }
 

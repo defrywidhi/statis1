@@ -2,9 +2,9 @@
 @section('content')
 
 <div class="mx-16">
-    <div class="container mx-auto width-3/5 px-12 mt-4 bg-white py-6 rounded-md">
+    <div class="container mx-auto width-3/5 px-12 mt-4 bg-white py-6 ">
         <h1 class=" text-2xl font-semibold mb-6">Tabel Distribusi Frekuensi</h1>
-        <table class="table-auto w-full bg-gray-100 shadow-lg rounded-lg border border-gray-300">
+        <table class="table-auto w-full bg-gray-100 rounded-lg border border-gray-300">
             <thead class="bg-blue-100">
                 <tr >
                     <th class=" px-6 py-3 border-b-2 border-r-2 border-gray-300">No</th>

@@ -1,5 +1,6 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\nilaiController;
 /*
@@ -33,4 +34,5 @@ Route::delete('/nilai/{dataSiswa}/delete', [nilaiController::class, 'delete'])->
 Route::get('/nilai', [nilaiController::class, 'index'])->name('nilai.index');
 Route::get('/tabelChi', [nilaiController::class, 'getChiSqure']);
 Route::post('/tabelChi', [nilaiController::class, 'calculateChiSqure'])->name('chi');
+
 
